@@ -1,0 +1,234 @@
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: sticky;
+}
+
+.topnav a {
+    float: right;
+    color: #192f01;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+}
+
+.topnav img {
+    float: left;
+    width: 7%;
+    padding: 10px 12px
+    
+}
+
+.search {
+    float: right;
+    margin-bottom: 25px;
+    margin-right: 15px;
+
+}
+
+.search input {
+    border: 1px solid #192f01;
+    border-radius: 3px;
+    padding: 7px 18px 7px 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search button {
+    background-color: #e0475b;
+    border: 1px solid #192f01;
+    border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 20px 7px 20px
+}
+/*Main section of page*/
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f8efea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;   
+    background-color: #192f01; 
+    padding: 75px;
+    margin: 50px 0px 50px 0px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #192f01;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+/*featured content of home page*/
+#featured-container-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8efea;
+    width: 65%;
+    padding: 25px;
+}
+
+#box-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    padding: 50px;
+}
+
+#featured-container-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+
+.cin-rolls {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 30px solid #e0475b;
+}
+
+.lasagna {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 30px solid #ded369;
+}
+
+.gma-hamm-cin-rolls {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192f01;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #e0475b;
+}
+
+.cin-rolls-intro {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192f01;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.featured-btn-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0475b;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 20px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.lasagna-title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#192f01;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ded369;
+}
+
+.lasagna-intro {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192f01;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.featured-btn-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ded369;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 20px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.full_recipe {
+    text-decoration: none;
+}
+
+.ingredients {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192f01;
+}
+
+.ingredients-2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192f01;
+    
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  
+/*footer section*/
+footer {
+    text-align: center;
+    color:#f8efea;
+    background-color: #e0475b;
+    padding: 25px;
+}
+
+
+
