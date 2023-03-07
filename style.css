@@ -206,6 +206,20 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
   } 
+
+/*categories section*/
+.categories_menu {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.menu_item {
+    width: 95%;
+    margin-left: 10px;
+}
+
 /*footer section*/
 footer {
     text-align: center;
