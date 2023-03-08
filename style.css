@@ -100,7 +100,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 h1 {
@@ -109,8 +109,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;   
     background-color: #192f01; 
-    padding: 30px;
-    margin: 25px 0px 25px 0px;
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
 }
 
 
