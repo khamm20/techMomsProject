@@ -282,10 +282,26 @@ h2 {
 
 /*footer section*/
 footer {
-    text-align: center;
-    color:#f8efea;
     background-color: #e0475b;
     padding: 25px;
+}
+
+.contact_icons {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.social_icon {
+    width: 35px;
+    padding: 5px;
+}
+
+.karen {
+    text-align: center;
+    color:#f8efea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 
