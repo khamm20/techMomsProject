@@ -37,24 +37,25 @@
     color: #e0475b;
     cursor: pointer;
   }
-  
-  /* Style the subnav content - positioned absolute */
+
   .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
-    background-color: transparent;
-    width: 100%;
+    background-color: #f8efea;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
-  
-  /* Style the subnav links */
+    
   .subnav-content a {
-    float: right;
+    float: none;
     color: #192f01;
+    padding: 12px 16px;
     text-decoration: none;
+    display: block;
+    text-align: left;
   }
-  
+   
   /* Add a grey background color on hover */
   .subnav-content a:hover {
     color: #ded369;
@@ -101,7 +102,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 h1 {
