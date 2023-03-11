@@ -255,13 +255,15 @@ h2 {
   #shaunaletter {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    margin: 50px 50px;
+    font-size: 20px;
+    margin: 60px 60px;
   } 
 
   .our_story_poem {
     list-style: none;
     text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
   }
 
 /*categories section*/
